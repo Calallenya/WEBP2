@@ -1,0 +1,46 @@
+* {
+    font-family: cursive;
+    background-color: wheat;
+}
+
+table, td, th {
+    border: 2px solid black;
+}
+
+td {
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    border: 1px;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.my-button, a {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    background-color: #f5deb3;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: inherit;
+    margin: 5px;
+}
+
+.my-button:hover, a:hover {
+    transition: 400ms;
+    background-color: rgba(16, 82, 7, 0.548);
+}
+
+form div {
+    margin: 5px 10px;
+}
+
+form {
+    text-align: center;
+}
